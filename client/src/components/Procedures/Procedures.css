@@ -1,0 +1,80 @@
+.procedures {
+    width: 100%;
+    min-height: 100vh;
+    padding: 35px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C1D3DF;
+    gap: 35px;
+}
+
+.procedures_title {
+    color: #0A1927;
+}
+
+.procedures-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.procedure {
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0A1927;
+    overflow: hidden;
+    position: relative;
+}
+
+.procedure_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+}
+
+.procedure:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.admin-procedures {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-top: 25px;
+}
+
+.procedure:hover .procedure_btns {
+    bottom: 30%;
+}
+
+.procedure_btns {
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    transition: .7s;
+}
+
+.procedure_btn {
+    color: red;
+}
+
+.procedure_btn:hover {
+    color: #fff;
+    background: #1d5564;
+    padding: 5px 12px;
+}

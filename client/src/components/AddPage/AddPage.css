@@ -1,0 +1,113 @@
+.addpage {
+    width: 100%;
+    min-height: 100vh;
+    padding: 35px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C1D3DF;
+}
+
+.addpage_btn {
+    color: #C1D3DF;
+    background: #1d5564;
+    padding: 7px 12px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.addpage_additional_property {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.add-containers {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.add-container {
+    border: solid #0A1927;
+    width: 370px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.add-container_form {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.addpage_professions {
+    width: 100%;
+    height: 30px;
+    padding: 5px 15px;
+    background: #1d5564;
+    color: #C1D3DF;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.addpage_professions_subject {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+:is(.addpage_professions_subject, .img_label):hover {
+    cursor: pointer;
+}
+
+.addpage_input {
+    padding: 10px 15px;
+    background: #1d5564;
+    width: 100%;
+    border-radius: 8px;
+    caret-color: #fff;
+    color: #fff;
+}
+
+.addpage_input::placeholder {
+    color: #C1D3DF;
+}
+
+.img_label {
+    padding: 10px 15px;
+    background: #1d5564;
+    font-size: 13px;
+    color: #C1D3DF;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.img_input {
+    display: none;
+}
+
+.addpage_active_color {
+    color: #fff !important;
+}
+
+.addpage_profession_title {
+    color: #C1D3DF;
+}
+
+.addpage_profession_title:hover {
+    cursor: pointer;
+    color: #fff;
+}

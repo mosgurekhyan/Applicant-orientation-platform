@@ -1,0 +1,69 @@
+.insert-email {
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background: #1d5564;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.login-label {
+    color: #C1D3DF;
+}
+
+.insert-email-container {
+    width: 380px;
+    height: fit-content;
+}
+
+.insert-email_title {
+    color: #fff;
+}
+
+.insert-email_description {
+    color: #C1D3DF;
+    font-size: 11px;
+    margin: 7px 0;
+}
+
+.hr2 {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 15px 0;
+}
+
+.insert-email-input {
+    outline: none;
+    padding: 10px 12px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #e5e7eb;
+    margin-top: 7px;
+    caret-color: #fff;
+}
+
+.insert-email_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.inser-imail_btn1, .inser-imail_btn2 {
+    padding: 7px 12px;
+    border-radius: 3px;
+}
+
+.inser-imail_btn1 {
+    color: #1d5564;
+    background: #C1D3DF;
+}
+
+.inser-imail_btn2 {
+    color: #1d5564;
+    background: #fff;
+}

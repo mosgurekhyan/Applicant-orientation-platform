@@ -1,0 +1,136 @@
+.test {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: #C1D3DF;
+}
+
+.test-container1 {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.test_img {
+    width: 35%;
+    height: 70vh;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+}
+
+.test-container2 {
+    width: 50%;
+    height: fit-content;
+    padding: 35px 100px 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.test-question {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.test-question_text {
+    color: #1d5564;
+    font-size: 18px;
+}
+
+.test-question_answers {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.test-question_answer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox {
+    border-radius: 4px; 
+    width: 20px;
+    height: 20px;
+    border: solid #1d5564;
+    display: grid;
+    place-items: center;
+}
+
+.test-question_answer_text, .fa-check {
+    color: #0A1927;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.test_btn {
+    background: #1d5564;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.test-examination {
+    width: 300px;
+    height: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1d5564;
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+    text-align: center;
+}
+
+.test-examination_subject {
+    color: #fff;
+    font-size: 20px;
+}
+
+.test-examination_check {
+    color: #C1D3DF;
+    font-size: 45px;
+}
+
+.test-examination_text {
+    color: #C1D3DF;
+}
+
+.test-examination_btn {
+    margin-top: 25px;
+    background: #C1D3DF;
+    width: 150px;
+    border-radius: 8px;
+    color: #1d5564;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.test_error {
+    margin-top: -10px;
+}

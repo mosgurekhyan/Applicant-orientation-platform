@@ -1,0 +1,60 @@
+.examination {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 101;
+    background: #C1D3DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.otp_numbers {
+    width: 280px; 
+    margin: 15px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.otp_input::-webkit-inner-spin-button,
+.otp_input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.otp_input {
+    height: 40px;
+    width: 40px;
+    background: #1d5564;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    caret-color: #fff;
+}
+
+.examination_title {
+    color: #fff;
+}
+
+.incorrect_code {
+    margin-top: -10px;
+    opacity: 0;
+    transition: 1s;
+    color: red;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.verify_button {
+    opacity: 0;
+    transition: 1s;
+    background: #fff;
+    color: #1d5564;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+}

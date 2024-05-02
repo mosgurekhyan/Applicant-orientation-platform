@@ -1,0 +1,80 @@
+.statistics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px 70px;
+    background: #c1d3df;
+}
+
+.statistics-container {
+    width: 70%;
+    height: fit-content;
+    padding: 20px 25px;
+    border-radius: 15px;
+    background: #1d5564;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.statistics_title {
+    color: #fff;
+    font-size: 25px;
+}
+
+.statistics_title:hover {
+    cursor: pointer;
+}
+
+.statistic {
+    font-size: 16.5px;
+    text-decoration: none;
+    color: #C1D3DF;
+}
+
+.statistic:hover {
+    text-decoration: underline;
+}
+
+.margin_bottom {
+    margin-bottom: 10px;
+}
+
+.admin-statistics {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-top: 25px;
+}
+
+.admin-statistic {
+    border: solid #1d5564;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.statistic_btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistic_btn {
+    color: red;
+}
+
+.statistic_btn:hover {
+    color: #fff;
+    background: #1d5564;
+    padding: 5px 12px;
+}

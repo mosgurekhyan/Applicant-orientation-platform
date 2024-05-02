@@ -1,0 +1,33 @@
+.popup {
+    width: 400px;
+    height: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    background: #1d5564;
+    border-radius: 15px;
+    padding: 25px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.popup_title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.additional-fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional-fields_btn {
+    margin-top: 15px;
+}

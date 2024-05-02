@@ -1,0 +1,114 @@
+.editpage {
+    width: 100%;
+    min-height: 100vh;
+    padding: 35px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C1D3DF;
+}
+
+.editpage_btn {
+    color: #C1D3DF;
+    background: #1d5564;
+    padding: 7px 12px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.editpage_additional_property {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.edit-container {
+    border: solid #0A1927;
+    width: 370px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.edit-container_form {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.editpage_professions {
+    width: 100%;
+    height: 30px;
+    padding: 5px 15px;
+    background: #1d5564;
+    color: #C1D3DF;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.editpage_professions_subject {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+:is(.editpage_professions_subject, .img_label):hover {
+    cursor: pointer;
+}
+
+.editpage_input {
+    padding: 10px 15px;
+    background: #1d5564;
+    width: 100%;
+    border-radius: 8px;
+    caret-color: #fff;
+    color: #fff;
+}
+
+.editpage_input::placeholder {
+    color: #C1D3DF;
+}
+
+.img_label {
+    padding: 10px 15px;
+    background: #1d5564;
+    font-size: 13px;
+    color: #C1D3DF;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.img_input {
+    display: none;
+}
+
+.editpage_img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.editpage_active_color {
+    color: #fff;
+}
+
+.editpage_profession_title {
+    color: #C1D3DF;
+}
+
+.editpage_profession_title:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.editpage_active_color {
+    color: #fff !important;
+}

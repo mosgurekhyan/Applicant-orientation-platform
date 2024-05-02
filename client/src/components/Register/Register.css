@@ -1,0 +1,23 @@
+.password-strength {
+    width: 100%;
+    color: #C1D3DF;
+    font-size: 11px;
+}
+
+.strong {
+    color: rgb(16, 253, 16);
+}
+
+.medium {
+    color: yellow;
+}
+
+.weak {
+    color: red;
+}
+
+.strength_password_btn {
+    color: #C1D3DF;
+    font-size: 11px;
+    margin: -10px 0 10px;
+}

@@ -1,0 +1,134 @@
+.profile {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background: #c1d3df;
+}
+
+.profile-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #c1d3df;
+    background: #1d5564;
+    display: grid;
+    place-items: center;
+}
+
+.name-letter {
+    color: #1d5564;
+    color: #c1d3df;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.profile-name {
+    color: #1d5564;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    color: #fff;
+}
+
+.profile-selected_professions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.profile-selected_profession {
+    color: #0A1927;
+}
+
+.profile-saved-professions {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.saved-profession {
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0A1927;
+    position: relative;
+    overflow: hidden;
+}
+
+.saved-profession_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .7s;
+}
+
+.saved-profession:hover {
+    cursor: pointer;
+}
+
+.saved-profession:hover img {
+    transform: scale(1.1);
+}
+
+.admin-universities {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.admin-universities_title {
+    color: #0A1927;
+    margin-top: 35px;
+}
+
+.admin-universities_btn {
+    background: #1d5564;
+    color: #c1d3df;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.admin-universities_container {
+    border: solid blue;
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+}
+
+.profile-saved-professions-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-saved-professions-container_title {
+    color: #fff;
+}

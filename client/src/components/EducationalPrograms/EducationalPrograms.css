@@ -1,0 +1,33 @@
+.educational_programs {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background: #C1D3DF;
+}
+
+.educational_programs-program {
+    width: 350px;
+    height: fit-content;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 30px;
+    background: #1d5564;
+    box-shadow: 0 0 8px #0A1927;
+    gap: 12px;
+}
+
+.educational_programs-program_quantity {
+    font-size: 60px;
+    color: #0A1927;
+}
+
+.educational_programs-program-container_name {
+    color: #fff;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}

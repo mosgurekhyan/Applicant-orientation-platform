@@ -1,0 +1,293 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'
+);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+.active_color {
+  color: #fff;
+}
+
+.prefered_color {
+  color: #1d5564;
+}
+
+.text_color {
+  color: #c1d3df;
+}
+
+button, input, textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #c1d3df;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d5564;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+:is(input, textarea)::placeholder {
+  color: #1d5564;
+}
+
+.error, .selection_error {
+  color: red;
+  width: 100%;
+  margin: 0 0 1px 0;
+  font-size: 11px;
+}
+
+.selection_error {
+  position: absolute;
+  bottom: 0;
+}
+
+.password_wrapper {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  color: #1d5564;
+  font-size: 11px;
+}
+
+:is(.eye, .strength_password_btn):hover {
+  cursor: pointer;
+}
+
+.selection {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selection-input_container {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.selection_input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  width: 100%;
+  caret-color: #1d5564;
+  color: #0A1927;
+  background: #C1D3DF;
+}
+
+.selection-buttons {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.selection_btn {
+  background: #C1D3DF;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #1d5564;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.forget {
+  color: #fff;
+  font-size: 11px;
+}
+
+:is(.forget, .alternatives_selection):hover {
+  cursor: pointer;
+}
+
+.alternatives {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.alternatives_text {
+  color: #C1D3DF;
+  font-size: 11px;
+}
+
+.alternatives_selection {
+  color: #fff;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.border_none {
+  border: none !important;
+}
+
+input[type="password"] {
+  color: #1d5564;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1d5564;
+  z-index: 100;
+}
+
+.selections {
+  width: 100%;
+  height: calc(100vh - 75px);
+  display: flex;
+}
+
+.selections_img {
+  object-fit: cover;
+  height: 100%;
+  width: 36%;
+}
+
+.selections-container {
+  width: 64%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #1d5564;
+}
+
+.forms {
+  width: 340px;
+  height: fit-content;
+}
+
+.options {
+  width: fit-content;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.option {
+  padding-bottom: 10px;
+  transition: 1s;
+  border-bottom: 3px solid #c1d3dfab;
+  color: #c1d3dfab;
+}
+
+.option:hover {
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.border {
+  border-bottom: 3px solid #fff;
+}
+
+.white_color {
+  color: #fff;
+}
+
+.test_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #6597b898;
+}
+
+.role-selections, .profession-selections {
+  padding: 12px 15px;
+  border-radius: 8px;
+  width: 100%;
+  color: #0A1927;
+  margin-bottom: 3px;
+  background: #C1D3DF;
+  height: 39.2px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.scroll {
+  overflow-y: auto !important;
+}
+
+.profession-selections {
+  z-index: 1 !important;
+}
+
+.custom_height {
+  height: fit-content !important;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-between;
+  color: #1d5564;
+}
+
+.role-selection_role {
+  font-size: 12px;
+}
+
+:is(.fa-sort-down, .role-selection):hover {
+  cursor: pointer;
+}
+
+.role-selection:hover .role-selection_role {
+  border-bottom: 1px solid #1d5564;
+}
+
+.role-selection_profession {
+  font-size: 12px;
+}
+
+.active_profession {
+  color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.fa-bookmark {
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  color: #1d5564;
+  font-size: 30px;
+}
